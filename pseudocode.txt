@@ -1,0 +1,73 @@
+// pseudocode author: Julian Rodriguez
+// for slot machine game
+initialize variables and set them equal to their values:
+
+jackpot Array [ 
+jackpot5c = 111
+jackpot10c = 222
+jackpot25c = 333
+jackpot50c = 44
+jackpo1d  = 545
+jackpot5d = 654
+jackpot10d = 7544
+jackpot25d = 855555
+]
+
+smallerwins array [
+jackpot5c = 1
+jackpot10c = 2
+jackpot25c = 3
+jackpot50c = 4
+jackpo1d  = 5
+jackpot5d = 6
+jackpot10d = 7
+jackpot25d = 8
+]
+
+winning combos array [
+    111
+    222
+    333
+    444
+    555
+]
+
+balance = null;
+
+amountWon = null;
+
+amountLost = null;
+
+userSelection = null
+
+Start progamn and ask user for input:
+
+prompt user for selection: 
+
+set userSelection = whatever the user selected as their money choice
+set balance = amount the user selected
+
+    if selection is jackpo1d set jackpot amount = the designated jackpot winning value
+    if else set the matching index = the corresponding value
+
+once selection has been made move to game screen*
+
+once in game screen have a button to begin spin
+
+if button pressed begin random function to generate a winning combonation
+    if random number matches winning combo 
+    set winningAmount = the amount won 
+    set balance to += winningAmount
+    print "Congrats! You hit the jackpot"
+
+    if else randomnumber mathces small combo
+    set winningAmount = the amount won
+    set balance to += winningAmount
+
+    if else random number doesnt match 
+        print play again!
+    
+    else balance = 0
+        print Youre out of money!
+
+
