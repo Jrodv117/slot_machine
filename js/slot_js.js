@@ -81,15 +81,12 @@ function addWin() {
 function addJackpot() {
     const newCash = parseInt(bank.value) + 1000;
     bank.value = newCash;
-    refreshBtnEl.style.display = "block";
-    btnEl.style.display = "none";
 }
 
 function showLossMessage() {
     lossMsg.style.display = "block";
     refreshBtnEl.style.display = "block";
     btnEl.style.display = "none";
-    // document.location.reload();
 }
 
 function showWinMessage() {
@@ -98,6 +95,8 @@ function showWinMessage() {
 
 function showJackpotMessage() {
     jackpotMsg.style.display = "block";
+    refreshBtnEl.style.display = "block";
+    btnEl.style.display = "none";
 }
 
 function hideMessage() {
