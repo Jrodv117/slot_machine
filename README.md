@@ -2,7 +2,7 @@
 
 # 1.1 Description:
 
-This slot Machine game gives the user initial credits with the value of 100. The user clicks the "Give me the loot" button and the program returns 3 random numbers. If the numbers dont match 10 credits are subtracted. If the numbers match and arent 333 the user wins 30 credits. If the numbers are 333 the user hits the jackpot and wins the game allowing the user to reset the game. If the user runs out of credits the game is over.
+This slot Machine game gives the user initial credits with the value of 100. The user clicks the "Give me the loot" button and the program returns 3 random numbers. If the numbers dont match 10 credits are subtracted. If the numbers match and arent 222 the user wins 30 credits. If the numbers are 222 the user hits the jackpot and wins the game allowing the user to reset the game. If the user runs out of credits the game is over.
 
 # 1.2 Screenshots:
 
