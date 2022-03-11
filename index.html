@@ -7,40 +7,38 @@
     <script defer src="js/slot_js.js"></script>
     <link href="css/slot_styles.css" rel="stylesheet">
   </head>
-<body>
+  <body>
     <h1 class="header">ROYAL LOOTS</h1>
+    <h2>
+      <div class="credits"> LOOT: <input id="bank" type="button" value="100" />
+      </div>
+    </h2>
+    <h3>
+      <div id="winmessage" class="messages"> NICE SPIN! + 30 </div>
+      <div id="lossmessage" class="messages"> YOU'RE OUT OF LOOT! </div>
+      <div id="jackpotmessage" class="messages"> JACKPOT, You Win! +1000! </div>
+    </h3>
     <table class="cntr">
-        <tbody>
-            <tr>
-                <td>
-                    <span id="num1" class="slot">-</span>
-                </td>
-                <td>
-                    <span id="num2" class="slot">-</span>
-                </td>
-                <td>
-                    <span id="num3" class="slot">-</span>
-                </td>
-            </tr>
-        </tbody>
+      <tbody>
+        <tr>
+          <td>
+            <span id="slot1" class="slot">0</span>
+          </td>
+          <td>
+            <span id="slot2" class="slot">0</span>
+          </td>
+          <td>
+            <span id="slot3" class="slot">0</span>
+          </td>
+        </tr>
+      </tbody>
     </table>
-    <div class="diffsum"> 
-        <input id="cash" type=text" value="50" style="width:30px" />
-        <input id="btnSubtract" type="button" value="cash" onclick="subtract();" />
+    <div>
+      <button id="bttn">Give Me The Loot!</button>
     </div>
     <div>
-        <button>Give Me The Loot!</button>
-    </div>
-    <div id="wmessage"  class="messages">
-        W
-    </div>
-    <div id="lmessage" class="messages">
-        L
-    </div>
-    <div id="jmessage" class="messages">
-        You hit the Jackpot
+      <button id="refresh">Refresh</button>
     </div>
     </table>
-</body>
-
+  </body>
 </html>
